@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #57C601 0%, #320049 100%), linear-gradient(121.28deg, #007762 0%, #5200FF 100%), linear-gradient(341.1deg, #FF0000 7.52%, #1700A4 77.98%), radial-gradient(49.82% 80.51% at 49.82% 50%, #820097 0%, #FF3D00 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #0B0037 100%);
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+    position: fixed;
+    overflow: hidden;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #D5DBE2;
+    /* background: var(--white); */
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: var(--light-bg);
+  }
+  .home {
+    margin-top: 0%;
+    height: 100vh;
+    background: linear-gradient(180deg, #57C601 0%, #320049 100%), linear-gradient(121.28deg, #007762 0%, #5200FF 100%), linear-gradient(341.1deg, #FF0000 7.52%, #1700A4 77.98%), radial-gradient(49.82% 80.51% at 49.82% 50%, #820097 0%, #FF3D00 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #0B0037 100%);
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: #D5DBE2;
+    gap: 10rem;
+    overflow: hidden;
+  }    
+  .header {
+    font-family: 'Segoe UI';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    z-index: 100;
+    background-color:  #D5DBE2 ;
+  }
+  
+  .header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color: #282727;
+    /* color: var(--white); */
+    padding: 0 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .header .menu {
+    font-size: 2.5rem;
+    color: #282727;
+    /* color: var(--white); */
+    cursor: pointer;
+    text-align: left;
+    display: none;
+  }
+  
+  .header.active {
+    background-color:#282727;
+    padding: 3rem 9%;
+  }
+  
+  .header .navbar a:hover {
+    color: #007762;
+  }
+
+  .header.active .menu {
+    color: var(--dark-bg);
+  }
+
+  .apodContainer{
+    margin-left: 5rem;
+  }
+  .apodContainer .textBox{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  }
+  .textBox .text{
+    font-size: 10rem;
+  }
+  .textBox p{
+    font-size: 3rem;
+  }
+  .btn{
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  #button{
+    background-color: #ffffff;
+    padding: 4px;
+    font-size: 2rem;
+    margin-top: 15px;
+    border-radius: 30px;
+  }
+  #date{
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    font-size: 2rem;
+    margin-right: 20px;
+    font-family:serif;
+  }
+  #button:hover{
+    background-color: #595f63;
+    color: white;
+    cursor: pointer;
+  }
+  .imagebox{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .imagebox .image{
+    
+    width: 70%;
+    height: 50%;
+  }
+  #img1{
+    margin-top: 22px;
+    margin-bottom: 35px;
+    width: 70em;
+    height: 50em;
+    object-fit: cover;
+  }
+  .img{
+    margin-top: 60px;
+    margin-right: 20px;
+    border: 2.5px solid rgb(0, 225, 255);
+    border-radius: 10px;
+  }
+
+  .imageText p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+  }
